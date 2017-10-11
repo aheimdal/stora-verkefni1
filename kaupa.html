@@ -1,1 +1,165 @@
-Halló heimur...hvað er að frétta?
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Fooþjónustan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Sigga.css">
+    <link rel="stylesheet" href="grid.css">
+      <nav>
+        <ul>
+          <li>
+            <a href="---">Fooþjónusta</a>
+          </li>
+          <li>
+            <a href="---">Um</a>
+          </li>
+          <li>
+            <a href="---">Kaupa</a>
+          </li>
+        </ul>
+      </nav>
+
+      <header>
+        <h1>Kaupa</h1>
+      </header>
+
+
+  </head>
+
+  <body>
+    <main>
+
+      <form>
+        <div class="input">
+        <section class="personu">
+
+          <fieldset>
+              <legend>Persónuupplýsingar</legend>
+                <label>
+                  Nafn:
+                  <input type="text" label="Nafn">
+                </label>
+                  <!-- Af hverju byrjar þessi kassi highlighted?-->
+                <label>
+                  Kennitala:
+                  <input
+                    type="text" pattern="[0-9]{0-6}-[0-9]{7-9}"
+                    placeholder="123456-7890">
+                </label>
+                <label>kyn:
+                  <input type="radio" name="kyn" value="Kona">
+                  Kona
+                  <input type="radio" name="kyn" value="Karl">
+                  Karl
+                  <input type="radio" name="kyn" value="Annað">
+                  Annað
+                </label>
+                  <!-- Þarf að skoða símann betur-->
+                <label>Sími:
+                  <input
+                    	type="tel" pattern="+[0-9]{0-2} [0-9]{3-5} [0-9]{6-9}"
+                      placeholder="+354 812 3456">
+                </label>
+                <label>Heimilisfang:
+                  <input type="text" label="Heimilisfang">
+                </label>
+                <label>
+                  <input type="checkbox" checked>
+                  Skrá mig á póstlista
+                </label>
+          </fieldset>
+
+        </section>
+      </div>
+      <div class="input">
+
+        <section class="Greidslu">
+          <fieldset>
+
+          <legend>Greiðsluupplýsingar</legend>
+
+            <label>Greiða með
+              <select>
+                <option value="Kreditkort">Kreditkorti</option>
+                <option value="Millifærslu">Millifærslu</option>
+                <option value="Reiðufé">Reiðufé</option>
+              </select>
+            </label>
+
+            <label>Nafn á korti
+              <input type="text" label="kortanafn">
+            </label>
+
+            <label>Kortanúmer
+              <input
+                type="text"
+                placeholder="5999-9999-9999-9999">
+            </label>
+
+Gildistími <!--þarf að laga-->
+
+            <label>Mán
+              <select>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+            </label>
+            <label>Ár
+              <select>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+              </select>
+            </label>
+
+
+
+          </legend>
+        </fieldset>
+
+        </section>
+      </div>
+
+
+
+
+
+      </form>
+      <div class:"panta">
+        <input type="submit" value="Panta"
+      </div>
+
+    </main>
+  </body>
+
+  <footer>
+    <p>
+      Fooþjónustan
+      123-4567
+    </p>
+    <p>
+      Opið 12-13 alla daga
+      Bargata 1
+      900 Foobar
+    </p>
+    <p>
+      © Fooþjónustan 2017
+    </p>
+  </footer>
+
+</html>
+
+
