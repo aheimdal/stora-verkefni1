@@ -300,7 +300,7 @@ main {
     white-space: pre-line;
     align-items: center;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
   }
 .footer2 {
   display: flex;
