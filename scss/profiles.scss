@@ -2,16 +2,23 @@
 
   &__row {
     display: flex;
-    flex-direction: row;
-    margin-right: -10px;
-    margin-left: -10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
   }
 
   &__col {
-    @include columns(12);
+    @include columns(4);
+    position: relative;
     display: flex;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: 0 0 20px;
+    padding: 0;
+
+  @media (max-width: 600) {
+    @include columns(5);
   }
+  @media (max-width: 400) {
+    @include columns(12);
+}
+}
 }
