@@ -355,8 +355,15 @@ input,label {
 
 .radio input{
   width: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+.checkbox input{
+  width: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 input, select {
     padding-top: 0.5em;
@@ -371,14 +378,18 @@ input, select {
 
 .manud {
     display: inline-flex;
-    padding-right: 2em;
-
     width: 100%;
 }
 
 .manud * {
-    padding-right: 2em;
-    width: 10em;
+    width: 100%;
+    display: inline-flex;
+}
+
+.manud :nth-child(2){padding-left: 1em;}
+
+.manud select {
+  margin-left: 2em;
 }
 
 .panta input {
