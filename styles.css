@@ -14,7 +14,7 @@ html {
 html {
   /* stylelint-disable-line */
   margin-right: 20px;
-  margin-left: 20px;*/
+  margin-left: 20px;
   font-size: 16px;
   line-height: 1.5; }
   @media (min-width: 1200px) {
@@ -531,6 +531,7 @@ input, select {
 .texti:nth-child(2) {
   display: flex;
   margin-bottom: 20px;
+  font-size: 1.125em;
 }
 
 .um__h2 {
@@ -548,21 +549,30 @@ input, select {
   font-weight: 400;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 1.125em;
 }
 
 .um__texti2 {
   margin-bottom: 100px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 1.125em;
 }
 
-.row__um .col-6left .um__texti {
+.um__textimidja {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: 'Open Sans' serif;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.125em;
   margin-left: 10px;
   margin-right: 20px;
   text-align: left;
 }
 
-.row__um .col-6right .um__quote {
+.um__quote {
   position: relative;
   float: left;
   top: 20%;
