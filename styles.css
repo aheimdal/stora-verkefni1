@@ -56,6 +56,9 @@ main {
     width: 50%; }
   .col-6right {
     width: 50%; }
+  .col-5 {
+    width: 40%;
+  }
   .col-4 {
     width: 33.33333%; }
   .col-4text {
@@ -444,3 +447,43 @@ input, select {
    }
 .offset-2 {
   margin-left: 16.66667%; }
+
+.row__um{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.texti{
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .texti:nth-child(2){
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+.um__h2{
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.um__texti{
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.um__quote{
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: justify;
+  align-content: space-around;
+}
+
+.headbar__text a:link, a:visited {
+  color: white;
+  text-decoration: line-through;
+}
