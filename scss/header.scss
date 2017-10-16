@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .headermynd {
   display: flex;
   margin-bottom: 16em;
@@ -58,4 +59,38 @@
   &__button:hover {
     cursor: pointer;
   }
+=======
+.header {
+
+/*  display: flex;
+  flex-direction: column;
+  background: url(bg.jpg) no-repeat center center fixed;*/
+/*  @mixin backgroundShorthand($imgpath,$position:0 0,$repeat: no-repeat) {
+      background: transparent url(#{$imgpath}) $repeat $position;
+  }
+   @include backgroundShorthand("bg.jpg");*/
+
+
+&__img {
+
+
+/*  display: flex;
+  flex-direction: column;*/
+
+/*  margin-bottom: 2em;
+  padding: 2em;
+
+  width: 100%;*/
+  /*min-height: 500px;*/
+}
+&__h1 {
+
+}
+&__h2 {
+
+}
+&__button {
+
+}
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
 }

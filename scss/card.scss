@@ -1,4 +1,5 @@
 .card {
+<<<<<<< HEAD
   text-align: center;
   width: 100%;
   min-width: 100px;
@@ -84,5 +85,46 @@
   } }
   &__askr {
     width: 100%;
+=======
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+
+  overflow: hidden;
+
+
+/*  border-radius: 3px;*/
+
+/*  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);*/
+
+  &__heading {
+    width: 100%;
+    margin-bottom: 15px;
+
+    font-size: 1.5rem;
+
+    word-break: break-word;
+  }
+
+  &__content {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__nafn {
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 100%;
+    border-radius: 25px;
+  }
+  &__askr {
+    margin-bottom: 30px;
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
   }
 }

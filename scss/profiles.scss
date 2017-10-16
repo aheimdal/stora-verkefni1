@@ -2,6 +2,7 @@
 
   &__row {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
@@ -21,4 +22,18 @@
     @include columns(12);
 }
 }
+=======
+    flex-direction: row;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  &__col {
+    @include columns(12);
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 0 20px;
+  }
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
 }

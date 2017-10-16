@@ -38,12 +38,18 @@
     @include columns(4);
   }
 
+<<<<<<< HEAD
   &-sm {
     @media (max-width: 600px) {
+=======
+/*  &-sm {
+    @media (max-width: 599px) {
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
       &-12 {
         @include columns(12);
       }
 
+<<<<<<< HEAD
       &-6left {
         @include columns(6);
       }
@@ -69,6 +75,17 @@
         }
     }
   }
+=======
+      &-6 {
+        @include columns(6);
+      }
+
+      &-3 {
+        @include columns(3);
+      }
+    }
+  }*/
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
 }
 
 .offset {
@@ -76,11 +93,19 @@
     margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
   }
 
+<<<<<<< HEAD
   &-sm {
+=======
+/*  &-sm {
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
     @media (max-width: 599px) {
       &-0 {
         margin-left: 0;
       }
     }
+<<<<<<< HEAD
   }
+=======
+  }*/
+>>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
 }
