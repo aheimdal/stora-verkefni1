@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html um.html kaupa.html style.css",
-    "sass": "node-sass style.scss style.css -w",
+    "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint styles.scss --syntax scss"
   },

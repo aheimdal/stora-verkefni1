@@ -44,15 +44,12 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
-@import "scss/grid";
-@import "scss/header";
-@import "scss/heading";
-@import "scss/text";
-@import "scss/button";
 @import "scss/card";
-/*@import "scss/cardlist";*/
+@import "scss/footer";
+@import "scss/grid";
+@import "scss/headbar";
+@import "scss/header";
 @import "scss/profiles";
-<<<<<<< HEAD
-=======
-@import "scss/texti";
->>>>>>> a6b1b70d51ce0dc560ea2d2fc6cbc79df1cdf7f1
+@import "scss/text";
+//@import "scss/heading";
+//@import "scss/button";
