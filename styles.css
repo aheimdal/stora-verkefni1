@@ -505,6 +505,10 @@ input, select {
    padding-left: 0em;
    padding-right: 0em;
     }
+
+
+
+
   }
   .footer__uppl {
     margin: auto;
@@ -544,6 +548,7 @@ input, select {
 
 .texti {
   margin-bottom: 20px;
+  word-wrap: normal;
 }
 
 .texti:nth-child(2) {
@@ -580,6 +585,7 @@ input, select {
 }
 
 .row__um .col-6right .um__quote {
+  flex-direction: column;
   position: relative;
   float: left;
   top: 20%;
@@ -592,6 +598,7 @@ input, select {
 
 .um__quote {
   box-sizing: border-box;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   font-style: italic;
   font-size: 1.5em;
