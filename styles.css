@@ -381,7 +381,6 @@ h1, legend {
 }
 
 .header__b {
-  display: flex;
   opacity: 0.75;
   background: url(bg-subpage.jpg) no-repeat;
   background-size: cover;
