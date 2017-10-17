@@ -76,7 +76,7 @@ main {
 
 /* Header bar */
 .headbar {
-  position: relative;
+  position: sticky;
   top: 0;
   z-index: 9999;
   background-color: rgba(77, 77, 77, 0.7);
@@ -583,10 +583,14 @@ select {padding: 0;}
   margin-left: 16.66667%;
 }
 
-
-
 .texti {
   margin-bottom: 20px;
+}
+.texti__h2 {
+  font-family: 'Roboto Slab', serif;
+  margin-left: 20px;
+  margin-top: 4em;
+  margin-bottom: 1em;
 }
 .texti__lina {
   margin-left: 20px;
@@ -622,7 +626,7 @@ margin-left: -10px;
   font-size: 1em;
   text-align: left;
 }
-.midja2__texti {
+/*.midja2__texti {
   margin-bottom: 1.25;
   font-family: 'Open Sans' serif;
   font-weight: 400;
@@ -630,7 +634,7 @@ margin-left: -10px;
   margin-right: 3.5em;
   font-size: 1em;
   text-align: left;
-}
+}*/
 .quote {
   position: relative;
   float: left;
@@ -643,6 +647,7 @@ margin-left: -10px;
   font-size: 1.5em;
   margin: auto;
   flex-wrap: wrap;
+  margin-bottom: 1em;
 }
 
 .qoute__tvo {
@@ -668,9 +673,9 @@ margin-left: -10px;
   }
 }
 @media (max-width: 400px) {
-/*  .row {
-    flex-direction: column;
-  }*/
+  .row {
+   flex-direction: column-reverse;
+  }
   .quote {
     order: 1;
     margin-bottom: 1.5em;
@@ -695,9 +700,9 @@ margin-left: -10px;
     margin-right: 1em;
     order: 2;
   }
-  .midja2__texti {
+/*  .midja2__texti {
     order: 3;
-  }
+  }*/
 
   }
 
