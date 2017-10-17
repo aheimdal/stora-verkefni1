@@ -37,37 +37,35 @@
 
       <form>
         <div class="input">
-        <section class="personu">
+        <section class="personu"> /*Fæ "warning" frá validator fyrir að vera ekki með h1, h2 etc. Í persónu og greiðslu class en kaus að gera það ekki þar sem þetta er form*/
 
           <fieldset>
               <legend>Persónuupplýsingar</legend>
-                <label>
-                  Nafn:
-                  <input type="text">
-                </label>
-                <label>
-                  Kennitala:
+                <label for="nafn">Nafn:</label>
+                  <input type="text" id="nafn" name="Nafn">
+
+                <label for="kennitala">Kennitala:</label>
                   <input
-                    type="text" pattern="[0-9]{0-6}-[0-9]{7-9}"
+                    type="text" id="kennitala" pattern="[0-9]{0-6}-[0-9]{7-9}"
                     placeholder="123456-7890">
-                </label>
+
                 <div class="radio">
-                  Kyn: <br>
-                    <input type="radio" name="kyn" value="Kona">
-                    Kona <br>
-                    <input type="radio" name="kyn" value="Karl">
-                    Karl <br>
-                    <input type="radio" name="kyn" value="Annað">
-                    Annað
+                  <label>Kyn:</label> <br>
+                    <label><input type="radio" name="kyn" value="Kona">
+                    Kona</label> <br>
+                    <label><input type="radio" name="kyn" value="Karl">
+                    Karl</label> <br>
+                    <label><input type="radio" name="kyn" value="Annað">
+                    Annað</label>
                 </div>
                 <label>Sími:
                   <input
-                    	type="tel" 
+                    	type="tel"
                       placeholder="+354 812 3456">
                 </label>
-                <label>Heimilisfang:
-                  <input type="text" label="Heimilisfang">
-                </label>
+                <label for="heimilisfang">Heimilisfang:</label>
+                  <input type="text" id="heimilisfang">
+
                 <div class="checkbox">
                 <label>
                   <input type="checkbox" checked>
@@ -93,7 +91,7 @@
             </label>
 
             <label>Nafn á korti:
-              <input type="text" label="kortanafn">
+              <input type="text" name="kortanafn">
             </label>
 
             <label>Kortanúmer:
@@ -133,7 +131,6 @@
 
 
 
-          </legend>
         </fieldset>
 
         </section>
