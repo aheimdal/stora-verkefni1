@@ -71,7 +71,7 @@ main {
 
 /* Header bar */
 .headbar {
-  position: ;
+  position: relative;
   top: 0;
   z-index: 9999;
   background-color: rgba(77, 77, 77, 1);
@@ -121,7 +121,6 @@ main {
     cursor: pointer;
   }
   .headbar__buttons a .button {
-    appearance: button;
     background-color: rgba(140, 140, 140, 1);
     color: rgba(255, 255, 255, 1);
     border: rgba(128, 128, 128, 1);
@@ -404,7 +403,7 @@ main {
 
   .input {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 5em;
   }
@@ -579,7 +578,7 @@ main {
 .um__texti {
   box-sizing: border-box;
   margin-bottom: 20px;
-  font-family: 'Open Sans' serif;
+  /*font-family: 'Open Sans' serif;*/
   font-weight: 400;
   margin-left: 20px;
   margin-right: 20px;
