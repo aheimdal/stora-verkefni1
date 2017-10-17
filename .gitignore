@@ -1,7 +1,2 @@
 /node_modules
-*.json
-stylelintrc
-.stylelintrc
-bs-config.js
-.DS_Store
 /Sýnishorn

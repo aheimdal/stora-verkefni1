@@ -76,7 +76,7 @@ main {
 
 /* Header bar */
 .headbar {
-  position: sticky;
+  position: ;
   top: 0;
   z-index: 9999;
   background-color: rgba(77, 77, 77, 0.7);
@@ -125,6 +125,16 @@ main {
   .headbar__buttonkaupa:hover {
     cursor: pointer;
   }
+  .headbar__buttons a {
+    appearance: button;
+    background-color: rgba(140, 140, 140, 1);
+    color: rgba(255, 255, 255, 1);
+    border: rgba(128, 128, 128, 1);
+    border-radius: 4px;
+    text-decoration: none;
+    width: 4.5em;
+    height: 2.5em;
+  }
 
 /*header cover*/
 .headermynd {
@@ -153,6 +163,7 @@ main {
     animation-duration: 1.5s;
     animation-delay: 1s;
   }
+
   .headermynd__h2 {
    font-size: 4.5em;
    margin-bottom: 1em;
@@ -162,7 +173,8 @@ main {
    animation-duration: 1.5s;
    animation-delay: 2s;
 }
-  .headermynd__button {
+
+.headermynd__button {
     background-color: rgba(89, 89, 89, 1);
     border: 1px solid rgba(89, 89, 89, 1);
     border-radius: 3px;
@@ -186,7 +198,6 @@ main {
      .headermynd__h2 {
        font-size: 12vw;
      }}
-
 /*textasvæði með mynd*/
 .text {
 }
@@ -361,7 +372,6 @@ main {
   }
 
 /*Form síðan*/
-
 h1, legend {
   font-family: 'Roboto Slab', serif;
 }
@@ -375,9 +385,6 @@ h1, legend {
   color: rgba(255, 255, 255, 1);
   padding-top: 5em;
   padding-bottom: 5em;
-  /*padding-left: 0.75em;*/
-  word-wrap: break-word;
-  /*width: 100%;*/
 }
 .header__b h1 {
   margin-left: 0.3em;
@@ -421,17 +428,36 @@ legend {
   margin: 0.5em;
 }
 
+@media screen and (max-width: 600px) {
+     .personu {min-width: 17em; max-width: 50%;}
+    .greidslu {min-width: 17em; max-width: 50%;}
+}
+
+@media screen and (max-width: 400px) {
+     .personu {max-width: 30em;}
+    .greidslu {max-width: 30em;}
+    .checkbox input {margin-bottom: 1em;}
+}
+
+
+
 select {
   background-color: rgba(250, 250, 250, 1);
 }
-
+/******************************************************************************/
 input, label {
   display: inline-block;
   padding-top: 0.5em;
+<<<<<<< HEAD
   padding-bottom: 0.5em;
   width: 100%;
-}
+=======
+  padding-bottom: 1em;
+  width: 100%;
 
+>>>>>>> 1fc8ffc1b39cbf53cd45c1f41128c323f8e7cff4
+}
+/*********************************************************************************/
 .radio input {
   width: 1em;
   margin-top: 1em;
@@ -441,7 +467,6 @@ input, label {
 .checkbox input {
   width: 1em;
   margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 input, select {
@@ -454,17 +479,25 @@ input, select {
   border-width: 1px;
   border-color: rgba(170, 170, 170, 1);
 }
-
+/*********************************************************************************/
 .manud {
   display: inline-flex;
   width: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1fc8ffc1b39cbf53cd45c1f41128c323f8e7cff4
 }
 
 .manud * {
   width: 100%;
   display: inline-flex;
-}
+<<<<<<< HEAD
+=======
 
+>>>>>>> 1fc8ffc1b39cbf53cd45c1f41128c323f8e7cff4
+}
+/*********************************************************************************/
 .manud :nth-child(2) {
   padding-left: 1em;
 }
@@ -472,6 +505,8 @@ input, select {
 .manud select {
   margin-left: 2em;
 }
+
+select {padding: 0;}
 
 .panta input {
   display: block;
@@ -485,8 +520,7 @@ input, select {
   color: rgba(255, 255, 255, 1);
 }
 
-
-/*Endi form síðu*/
+  /*Endi form síðu*/
 .footer {
   display: flex;
   position: relative;
@@ -502,6 +536,7 @@ input, select {
    padding-left: 0em;
    padding-right: 0em;
     }
+
   }
   .footer__uppl {
     margin: auto;
@@ -537,14 +572,6 @@ input, select {
 
 .texti {
   margin-bottom: 20px;
-}
-
-.texti__h2 {
-  margin-top: 100px;
-  display: flex;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  font-family: 'Roboto Slab', serif;
 }
 .texti__lina {
   margin-left: 20px;
@@ -601,8 +628,8 @@ margin-left: -10px;
   font-size: 1.5em;
   margin: auto;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
+
 .qoute__tvo {
   margin-bottom: 5em;
   margin-top: 1em;
@@ -681,11 +708,3 @@ margin-left: -10px;
 
     }
   }*/
-
-
-
-
-.headbar__text a:link, a:visited {
-  color: white;
-  text-decoration: none;
-}
