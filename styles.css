@@ -76,7 +76,7 @@ main {
 
 /* Header bar */
 .headbar {
-  position: ;
+  position: relative;
   top: 0;
   z-index: 9999;
   background-color: rgba(77, 77, 77, 0.7);
@@ -95,6 +95,7 @@ main {
     display: inline-block;
   }
   .headbar__buttons {
+    width: 15%;
     position: absolute;
     right: 0px;
     margin-right: 1em;
@@ -119,14 +120,17 @@ main {
     border: rgba(128, 128, 128, 1);
     border-radius: 4px;
     text-decoration: none;
-    width: 4.5em;
-    height: 2.5em;
+    width: 4em;
+    height: 2em;
   }
   .headbar__buttonkaupa:hover {
     cursor: pointer;
   }
   .headbar__buttons a {
+<<<<<<< HEAD
     appearance: button;
+=======
+>>>>>>> b7e60ecd008b7282f3ba9403ad19273d6687bf0b
     background-color: rgba(140, 140, 140, 1);
     color: rgba(255, 255, 255, 1);
     border: rgba(128, 128, 128, 1);
@@ -406,6 +410,7 @@ legend {
   color: rgba(77, 77, 77, 1);
 }
 
+<<<<<<< HEAD
 .input {
   display: flex;
   justify-content: space-around;
@@ -413,6 +418,16 @@ legend {
   padding-top: 5em;
   padding-bottom: 5em;
 }
+=======
+<<<<<<< HEAD
+  .input {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5em;
+    padding-bottom: 1em;
+  }
+>>>>>>> b7e60ecd008b7282f3ba9403ad19273d6687bf0b
 
 .personu {
   width: 100%;
@@ -582,7 +597,7 @@ select {padding: 0;}
 .texti__efst {
   display: flex;
   margin-bottom: 20px;
-  font-family: 'Open Sans' serif;
+  /*font-family: 'Open Sans' serif;*/
   font-weight: 400;
   margin-left: 20px;
   margin-right: 20px;
