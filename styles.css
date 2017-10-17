@@ -76,12 +76,12 @@ main {
 
 /* Header bar */
 .headbar {
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 9999;
-  background-color: rgba(77, 77, 77, 0.7);
+  background-color: rgba(77, 77, 77, 0.9);
   color: rgba(255, 255, 255, 1);
   width: 100%;
+  max-width: 1200px;
   height: 3em;
 }
 
@@ -142,13 +142,13 @@ main {
 
 /*header cover*/
 .headermynd {
-  display: flex;
   margin-bottom: 16em;
   padding: 2em;
   width: 100%;
   min-height: 900px;
   background: transparent url(bg.jpg) no-repeat center center fixed;
   background-size: cover;
+  padding: 300px;
 }
   @keyframes fadein {
    from {opacity:0;}
@@ -584,27 +584,27 @@ select {padding: 0;}
 }
 
 .texti {
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 .texti__h2 {
   font-family: 'Roboto Slab', serif;
-  margin-left: 20px;
-  margin-top: 4em;
-  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-top: 3.75em;
+  margin-bottom: 1.25em;
 }
 .texti__lina {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 1em;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
+  margin-bottom: 1.25em;
   font-size: 1em;
 }
 .texti__efst {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   /*font-family: 'Open Sans' serif;*/
   font-weight: 400;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   font-size: 1em;
   }
 
@@ -614,15 +614,14 @@ select {padding: 0;}
 display: flex;
 flex-wrap: wrap;
 margin-right: -10px;
-margin-bottom: 20px;
+margin-bottom: 1.25em;
 margin-left: -10px;
 }
 .midja__texti {
-  margin-bottom: 1.25;
   font-family: 'Open Sans' serif;
   font-weight: 400;
   margin-left: 1.25em;
-  margin-right: 3.5em;
+  margin-right: 3.75em;
   font-size: 1em;
   text-align: left;
 }
@@ -637,39 +636,40 @@ margin-left: -10px;
 }*/
 .quote {
   position: relative;
-  float: left;
+/*  float: left;*/
   top: 20%;
   margin-left: 1.25em;
-  margin-right: 3em;
+  margin-right: 2.5em;
 }
 .quote__eitt {
   font-style: italic;
   font-size: 1.5em;
   margin: auto;
   flex-wrap: wrap;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
 }
 
 .qoute__tvo {
   margin-bottom: 5em;
-  margin-top: 1em;
+  margin-top: 1.25em;
   font-style: normal;
   font-size: 1.125em;
   }
 .textinedst {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
   font-size: 1em;
   margin-bottom: 5em;
 }
 @media (max-width: 600px) {
   .quote {
+    float: none;
   }
   .col-sm-6-right {
     height: 400px;
   }
   .midja__texti {
-
+    margin-right: 1.25em;
   }
 }
 @media (max-width: 400px) {
@@ -678,26 +678,26 @@ margin-left: -10px;
   }
   .quote {
     order: 1;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.25em;
     }
   .quote__eitt {
-    margin-left: 1em;
-    margin-right: 1.5em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
     }
   .quote__tvo {
-    margin-left: 1.5em;
-    margin-bottom: 3em;
+    margin-left: 1.25em;
+    margin-bottom: 2.5em;
       }
   .texti__efst {
     margin-bottom: 2.5em;
-    margin-right: 1.6em;
+    margin-right: 1.25em;
   }
   .textinedst {
-    margin-bottom: 2em;
-    margin-right: 1.6em;
+    margin-bottom: 2.5em;
+    margin-right: 1.25em;
       }
   .midja__texti {
-    margin-right: 1em;
+    margin-right: 1.25em;
     order: 2;
   }
 /*  .midja2__texti {
