@@ -8,30 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="grid.css">
+    </head>
 
+
+
+
+  <body>
     <nav>
       <div class="headbar">
         <a href="index.html">
           <p class="headbar__text">Fooþjónustan</p>
         </a>
         <div class="headbar__buttons">
-        <a href="um.html">
-          <button class="headbar__buttonum">Um</button>
-        </a>
-        <button class="headbar__buttonkaupa">Kaupa</button>
+          <a href="um.html">
+            <button class="headbar__buttonum">Um</button>
+          </a>
+          <button class="headbar__buttonkaupa">Kaupa</button>
+        </div>
       </div>
     </nav>
 
-      <header>
-        <div class="header__b">
-          <h1>Kaupa</h1>
-        </div>
-      </header>
-
-
-  </head>
-
-  <body>
+    <header>
+      <div class="header__b">
+        <h1>Kaupa</h1>
+      </div>
+    </header>
     <main>
 
       <form>
@@ -42,7 +43,7 @@
               <legend>Persónuupplýsingar</legend>
                 <label>
                   Nafn:
-                  <input type="text" label="Nafn">
+                  <input type="text">
                 </label>
                 <label>
                   Kennitala:
@@ -51,18 +52,17 @@
                     placeholder="123456-7890">
                 </label>
                 <div class="radio">
-                  <label>Kyn: <br>
+                  Kyn: <br>
                     <input type="radio" name="kyn" value="Kona">
                     Kona <br>
                     <input type="radio" name="kyn" value="Karl">
                     Karl <br>
                     <input type="radio" name="kyn" value="Annað">
                     Annað
-                </label>
                 </div>
                 <label>Sími:
                   <input
-                    	type="tel" pattern="+[0-9]{0-2} [0-9]{3-5} [0-9]{6-9}"
+                    	type="tel" 
                       placeholder="+354 812 3456">
                 </label>
                 <label>Heimilisfang:
