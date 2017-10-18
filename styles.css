@@ -31,6 +31,9 @@ body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
 }
+
+h1 {font-family: 'Roboto Slab', serif;}
+
 main {
   /* stylelint-disable-line */
   max-width: 1200px;
@@ -41,19 +44,28 @@ main {
   margin-right: -10px;
   margin-bottom: 20px;
   margin-left: -10px; }
-  
 .col {
   padding-right: 10px;
   padding-left: 10px; }
   .col-12 {
     width: 100%; }
-  .col-6 {
+  .col-6left {
+    width: 50%; }
+  .col-6right {
     width: 50%; }
 @media (max-width: 600px) {
   .col-sm-12 {
     width: 100%; }
-   }
-
+  .col-sm-6-left {
+    width: 50%; }
+  .col-sm-6-right {
+    width: 50%;
+  } }
+@media (max-width: 400px) {
+  .col-sm4-12 {
+    width: 100%;
+  }
+ }
 .offset-2 {
   margin-left: 16.66667%; }
 @media (max-width: 599px) {
