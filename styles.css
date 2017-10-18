@@ -402,16 +402,6 @@ legend {
   color: rgba(77, 77, 77, 1);
 }
 
-<<<<<<< HEAD
-.input {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
-=======
-<<<<<<< HEAD
   .input {
     display: flex;
     justify-content: space-around;
@@ -419,7 +409,6 @@ legend {
     padding-top: 5em;
     padding-bottom: 1em;
   }
->>>>>>> b7e60ecd008b7282f3ba9403ad19273d6687bf0b
 
 .personu {
   width: 100%;
@@ -478,25 +467,10 @@ input, select {
   border-width: 1px;
   border-color: rgba(170, 170, 170, 1);
 }
-/*********************************************************************************/
 .manud {
   display: inline-flex;
   width: 100%;
-<<<<<<< HEAD
-=======
-
->>>>>>> 1fc8ffc1b39cbf53cd45c1f41128c323f8e7cff4
 }
-
-.manud * {
-  width: 100%;
-  display: inline-flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> 1fc8ffc1b39cbf53cd45c1f41128c323f8e7cff4
-}
-/*********************************************************************************/
 .manud :nth-child(2) {
   padding-left: 1em;
 }
@@ -689,8 +663,6 @@ margin-left: -10px;
   }*/
 
   }
-
-}
 
   /*.um__h2 {
     margin-left: 0;
