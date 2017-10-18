@@ -1,108 +1,80 @@
 <!DOCTYPE html>
 <html lang="is">
-  <head>
-    <meta charset="utf-8">
-    <title>Fooþjónustan</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="grid.css">
-    </head>
-
-
-
-
-  <body>
-    <nav>
-      <div class="headbar">
-        <a href="index.html">
-          <p class="headbar__text">Fooþjónustan</p>
-        </a>
-        <div class="headbar__buttons">
-          <a href="um.html">
-            <button class="headbar__buttonum">Um</button>
-          </a>
-          <button class="headbar__buttonkaupa">Kaupa</button>
-        </div>
-      </div>
-    </nav>
-
-    <header>
-      <div class="header__b">
-        <h1>Kaupa</h1>
-      </div>
-    </header>
-    <main>
-
-      <form>
-        <div class="input">
-        <section class="personu"> /*Fæ "warning" frá validator fyrir að vera ekki með h1, h2 etc. Í persónu og greiðslu class en kaus að gera það ekki þar sem þetta er form*/
-
+<head>
+  <meta charset="utf-8">
+  <title>Stóra Verkefni 1 Kaupa</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <div class="headbar">
+    <a href="index.html" class="headbar__text">Fooþjónustan</a>
+    <div class="headbar__buttons">
+      <a href="um.html" class="headbar__buttonum">Um</a>
+      <a href="kaupa.html" class="headbar__buttonkaupa">Kaupa</a>
+    </div>
+  </div>
+  <header>
+    <div class="header__b">
+      <h1>Kaupa</h1>
+    </div>
+  </header>
+  <main>
+    <form>
+      <div class="input">
+        <section class="personu">
           <fieldset>
-              <legend>Persónuupplýsingar</legend>
-                <label for="nafn">Nafn:</label>
-                  <input type="text" id="nafn" name="Nafn">
-
-                <label for="kennitala">Kennitala:</label>
-                  <input
-                    type="text" id="kennitala" pattern="[0-9]{0-6}-[0-9]{7-9}"
-                    placeholder="123456-7890">
-
-                <div class="radio">
-                  <label>Kyn:</label> <br>
-                    <label><input type="radio" name="kyn" value="Kona">
+            <legend>Persónuupplýsingar</legend>
+            <label for="nafn">Nafn:</label>
+            <input type="text" id="nafn" name="Nafn">
+            <label for="kennitala">Kennitala:</label>
+            <input type="text" id="kennitala" pattern="[0-9]{0-6}-[0-9]{7-9}" placeholder="123456-7890">
+            <div class="radio">
+              <label>Kyn:</label> <br>
+              <label><input type="radio" name="kyn" value="Kona">
                     Kona</label> <br>
-                    <label><input type="radio" name="kyn" value="Karl">
+              <label><input type="radio" name="kyn" value="Karl">
                     Karl</label> <br>
-                    <label><input type="radio" name="kyn" value="Annað">
+              <label><input type="radio" name="kyn" value="Annað">
                     Annað</label>
-                </div>
-                <label>Sími:
+            </div>
+            <label>Sími:
                   <input
                     	type="tel"
                       placeholder="+354 812 3456">
                 </label>
-                <label for="heimilisfang">Heimilisfang:</label>
-                  <input type="text" id="heimilisfang">
-
-                <div class="checkbox">
-                <label>
+            <label for="heimilisfang">Heimilisfang:</label>
+            <input type="text" id="heimilisfang">
+            <div class="checkbox">
+              <label>
                   <input type="checkbox" checked>
                   Skrá mig á póstlista
-                </label>
-              </div>
+              </label>
+            </div>
           </fieldset>
-
         </section>
-
-
         <section class="greidslu">
           <fieldset>
-
-          <legend>Greiðsluupplýsingar</legend>
-
-            <label>Greiða með:
+            <legend>Greiðsluupplýsingar</legend>
+            <label>Greiða með:</label>
               <select>
                 <option value="Kreditkort">Kreditkorti</option>
                 <option value="Millifærslu">Millifærslu</option>
                 <option value="Reiðufé">Reiðufé</option>
               </select>
-            </label>
-
             <label>Nafn á korti:
               <input type="text" name="kortanafn">
             </label>
-
-            <label>Kortanúmer:
+            <label for="kortanumer">Kortanúmer:</label>
               <input
-                type="text"
+                type="text" id="kortanumer"
                 placeholder="5999-9999-9999-9999">
-            </label>
-
-            Gildistími:  <br>
-          <div class="manud">
-            <label>Mán
+             Gildistími: <br>
+            <div class="manud">
+              <label>Mán
               <select>
                 <option value="01">01</option>
                 <option value="02">02</option>
@@ -117,8 +89,8 @@
                 <option value="11">11</option>
                 <option value="12">12</option>
               </select>
-            </label>
-            <label>Ár
+              </label>
+              <label>Ár
               <select>
                 <option value="17">2017</option>
                 <option value="18">2018</option>
@@ -127,37 +99,22 @@
                 <option value="21">2021</option>
               </select>
             </label>
-          </div>
-
-
-
-        </fieldset>
-
+            </div>
+          </fieldset>
         </section>
       </div>
-
-
-
-
-
-      </form>
-      <div class="panta">
-        <input type="submit" value="Panta">
-      </div>
-
-    </main>
-  </body>
-
-    <div class="footer">
-       <p class="footer__uppl">Fooþjónustan
-         123-4567</p>
-       <p class="footer__uppl">Opið 12-13 alla daga
-         Bargata 1
-         900 Foobar</p>
-     </div>
-     <div class="footer2">
-       <p class="footer2__bottom">© Fooþjónustan 2017</p>
-     </div>
-
-
+    </form>
+    <div class="panta">
+      <input type="submit" value="Panta">
+    </div>
+  </main>
+  <div class="footer">
+    <p class="footer__uppl">Fooþjónustan 123-4567
+    </p>
+    <p class="footer__uppl">Opið 12-13 alla daga Bargata 1 900 Foobar</p>
+  </div>
+  <div class="footer2">
+    <p class="footer2__bottom">© Fooþjónustan 2017</p>
+  </div>
+</body>
 </html>
