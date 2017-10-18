@@ -101,14 +101,14 @@ main {
     width: 20%;
     position: absolute;
     right: 0px;
-    margin-right: 1em;
+    margin-right: 0.5em;
     padding-top: 0.5em;
   }
   .headbar__buttonum {
     background-color: rgba(77, 77, 77, 0);
     color: rgba(255, 255, 255, 1);
     border: rgba(0, 0, 0, 1);
-    right: 40px;
+    right: 35px;
     position: absolute;
     border-radius: 4px;
     padding-top: 5px;
@@ -124,7 +124,7 @@ main {
     color: rgba(255, 255, 255, 1);
     border: rgba(128, 128, 128, 1);
     border-radius: 4px;
-    right: 10px;
+    right: 5px;
     position: absolute;
     padding: 5px 10px;
     text-align: center;
