@@ -414,14 +414,12 @@ legend {
   width: 100%;
   max-width: 35%;
   min-width: 15em;
-  margin: 0.5em;
 }
 
 .greidslu {
   width: 100%;
   max-width: 35%;
   min-width: 15em;
-  margin: 0.5em;
 }
 
 @media screen and (max-width: 600px) {
@@ -470,6 +468,9 @@ input, select {
 .manud {
   display: inline-flex;
   width: 100%;
+}
+.manud * {
+ display: inline-flex;
 }
 .manud :nth-child(2) {
   padding-left: 1em;
