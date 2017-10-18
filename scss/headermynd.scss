@@ -3,11 +3,10 @@
   margin-bottom: 16em;
   width: 100%;
   min-height: 900px;
-  background: transparent url(bg.jpg) no-repeat center center fixed;
+  background: transparent url("bg.jpg") no-repeat center center fixed;
   background-size: cover;
   padding: 2em;
 }
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -17,7 +16,6 @@
     opacity: 1;
   }
 }
-
 
 .headermynd__content {
   margin: auto;
@@ -62,11 +60,11 @@ a.headermynd__button {
 .headermynd__button:hover {
   cursor: pointer;
 }
-
 @media (max-width: 600px) {
   .headermynd {
     margin-bottom: 4em;
   }
+
   .headermynd__h2 {
     font-size: 12vw;
   }
@@ -74,7 +72,7 @@ a.headermynd__button {
 
 .header__b {
   opacity: 0.75;
-  background: url(bg-subpage.jpg) no-repeat;
+  background: url("bg-subpage.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   word-wrap: break-word;
@@ -82,6 +80,7 @@ a.headermynd__button {
   color: rgba(255, 255, 255, 1);
   padding-top: 5em;
   padding-bottom: 5em;
+
   h1 {
     margin-left: 0.3em;
   }

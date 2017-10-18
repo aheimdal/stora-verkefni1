@@ -7,6 +7,7 @@
   max-width: 1200px;
   height: 3em;
 }
+
 .headbar__text {
   font-size: 1.5em;
   font-weight: bold;
@@ -18,14 +19,16 @@
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }
+
 .headbar__buttons {
   height: 20%;
   width: 20%;
   position: absolute;
-  right: 0px;
+  right: 0;
   margin-right: 0.5em;
   padding-top: 0.5em;
 }
+
 .headbar__buttonum {
   background-color: rgba(77, 77, 77, 0);
   color: rgba(255, 255, 255, 1);
@@ -37,10 +40,12 @@
   text-decoration: none;
   width: 4.5em;
   height: 2.5em;
+
   &:hover {
     cursor: pointer;
   }
 }
+
 .headbar__buttonkaupa {
   background-color: rgba(140, 140, 140, 1);
   color: rgba(255, 255, 255, 1);
@@ -51,6 +56,7 @@
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
+
   &:hover {
     cursor: pointer;
   }

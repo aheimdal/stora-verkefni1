@@ -51,7 +51,8 @@
   font-weight: bold;
 }
 
-.card__nafn2, .card__nafn3 {
+.card__nafn2,
+.card__nafn3 {
   width: 100%;
   font-weight: bold;
   margin-top: 1em;
@@ -60,27 +61,30 @@
 .card__askr {
   width: 100%;
 }
-
 @media (max-width: 600px) {
   .card {
     margin-top: 3.75em;
   }
-  .card__heading2, .card__heading3 {
+
+  .card__heading2,
+  .card__heading3 {
     margin-top: 1.5em;
   }
+
   .card__nafn2 {
     margin-top: 2.2em;
   }
+
   .card__nafn3 {
-    margin-top: 0em;
+    margin-top: 0;
   }
 }
-
 @media (max-width: 400px) {
   .card {
     margin-top: 2.5em;
   }
+
   .card__nafn2 {
-    margin-top: 0em;
+    margin-top: 0;
   }
 }
