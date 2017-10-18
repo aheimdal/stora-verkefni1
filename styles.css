@@ -500,6 +500,9 @@ select {padding: 0;}
   border-radius: 0.5em;
   color: rgba(255, 255, 255, 1);
 }
+.panta :hover {
+    cursor: pointer;
+  }
 
   /*Endi form síðu*/
 .footer {
