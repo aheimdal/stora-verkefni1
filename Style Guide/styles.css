@@ -274,6 +274,8 @@ a.headermynd__button {
 .profilar {
   padding-top: 5em;
   }
+.profilar h1 {padding-left: 3em;}
+
   .profiles__row {
     display: flex;
     flex-wrap: wrap;
