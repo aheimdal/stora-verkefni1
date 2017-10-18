@@ -4,8 +4,7 @@
 html skrár sem beinagrind síðunnar er og stílsíða notuð til að umbreyta síðunni í það útlit sem var óskað eftir. Einnig er scss sem
 er einskonar ofur css og þannig er hægt að hafa áhrif á stílsíðu styles.css og styles.scss í gegnum ofur css skrárnar.
 
-Best er að opna index.html og þar í gegnum það er hægt að vafra á milli um.html og kaupa.html ef það á að skoða skrárnar á tölvunni
-sjálfri. Annars hægt að skoða þær á vefslóð <*** url ***>
+Best er að opna index.html og þar í gegnum það er hægt að vafra á milli um.html og kaupa.html ef það á að skoða skrárnar á tölvunni sjálfri. Annars hægt að skoða þær á vefslóð < *** url *** >
 
 Við höfum gróflega farið yfir uppsetningu verkefnisins hér fyrir ofan en við höfum í þessu verkefni eftirfarandi skrár og gögn:
 
@@ -18,9 +17,11 @@ Við höfum gróflega farið yfir uppsetningu verkefnisins hér fyrir ofan en vi
 - package-lock.json skrá
 - scss (hér eru fleiri scss skrár sem er notast við að stílbreyta síðuna)
 
+
+
 *********************** (Klára svo að setja inn hvernig css er skipulagt)
 
 
 
 
-Höfundir: Anton H. Heimdal (ahh30@hi.is),
+Höfundir: Anton H. Heimdal (ahh30@hi.is), Henríetta Þóra Magnúsdóttir (hthm6@hi.is), Sigríður Ösp Sigurðardóttir (sos42@hi.is)

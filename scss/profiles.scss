@@ -1,24 +1,28 @@
-.profiles {
+.profiles {}
 
-  &__row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  &__col {
-    @include columns(4);
-    position: relative;
-    display: flex;
-    padding: 0;
-
-  @media (max-width: 600) {
-    @include columns(6);
-  }
-  @media (max-width: 400) {
-    @include columns(12);
+.profiles__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
 }
+
+.profiles__col {
+  position: relative;
+  display: flex;
+  width: 33.33333%;
+  padding: 0;
 }
+
+@media (max-width: 600px) {
+  .profiles__col {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .profiles__col {
+    width: 100%;
+  }
 }

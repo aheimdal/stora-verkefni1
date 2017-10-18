@@ -76,7 +76,7 @@ main {
   background-color: rgba(77, 77, 77, 0.9);
   color: rgba(255, 255, 255, 1);
   width: 100%;
-  max-width: 1200px;
+  max-width: 75em;
   height: 3em;
 }
   .headbar__text {
@@ -105,7 +105,7 @@ main {
     right: 35px;
     position: absolute;
     border-radius: 4px;
-    padding-top: 5px;
+    padding-top: 0.3125em;
     text-decoration: none;
     width: 4.5em;
     height: 2.5em;
@@ -118,14 +118,24 @@ main {
     color: rgba(255, 255, 255, 1);
     border: rgba(128, 128, 128, 1);
     border-radius: 4px;
-    right: 5px;
+    right: 0.3125em;;
     position: absolute;
-    padding: 5px 10px;
+    padding: 0.3125em 0.625em;
     text-align: center;
     text-decoration: none;
   }
   .headbar__buttonkaupa:hover {
     cursor: pointer;
+  }
+  @media (max-width: 600px) {
+    .headbar {
+     max-width: 37.5em;;
+    }
+  }
+  @media (max-width: 400px) {
+    .headbar {
+      max-width: 25em;;
+    }
   }
 
 /*header cover*/
@@ -133,7 +143,7 @@ main {
   display: flex;
   margin-bottom: 16em;
   width: 100%;
-  min-height: 900px;
+  min-height: 56.25em;;
   background: transparent url(bg.jpg) no-repeat center center fixed;
   background-size: cover;
   padding: 2em;
@@ -169,7 +179,7 @@ a.headermynd__button {
     border: 1px solid rgba(89, 89, 89, 1);
     border-radius: 3px;
     color: rgba(238, 238, 238, 1);
-    font-size: 28px;
+    font-size: 2.25em;
     text-decoration: none;
     padding: 10px 25px;
     opacity: 0;
@@ -253,18 +263,18 @@ a.headermynd__button {
 .card {
   text-align: center;
   width: 100%;
-  min-width: 100px;
-  max-width: 400px;
+  min-width: 6.25em;
+  max-width: 25em;
   overflow: hidden;
   margin-bottom: 5em;
   margin-top: 7.5em;
   flex: 1 0 auto;
-  padding: 10px;
+  padding: 0.625em;
 }
   .card__img {
     width: 100%;
-    border-radius: 200px;
-    max-width: 300px;
+    border-radius: 12.5em;
+    max-width: 18.75em;
     text-align: center;
 }
   .card__content {
@@ -379,10 +389,16 @@ h1, legend {
   margin-left: 0.3em;
 }
 @media (max-width: 600px) {
-  .header__b h1  {
-    margin-left: 0.1em;
+  .header__b h1 {
+    margin-left: 0.2em;
+    font-size: 10vw;
   } }
-
+@media (max-width: 400px) {
+  .header__b h1 {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    font-size: 2em;
+    } }
 fieldset {
   border: none;
   padding: 1em;
@@ -510,7 +526,7 @@ select {padding: 0;}
   display: flex;
   position: relative;
   width: 100%;
-  height: 60px;
+  height: 3.75em;
   background-color: rgba(77, 77, 77, 1);
   color: rgba(255, 255, 255, 1);
   border-top: solid rgba(140, 140, 140, 1);
