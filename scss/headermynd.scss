@@ -1,0 +1,101 @@
+.headermynd {
+  display: flex;
+  margin-bottom: 16em;
+  width: 100%;
+  min-height: 900px;
+  background: transparent url(bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 2em;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.headermynd__content {
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.headermynd__h1 {
+  font-size: 2.25em;
+  opacity: 0;
+  animation: fadein ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+
+.headermynd__h2 {
+  font-size: 4.5em;
+  margin-bottom: 1em;
+  opacity: 0;
+  animation: fadein ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+}
+
+a.headermynd__button {
+  background-color: rgba(89, 89, 89, 1);
+  border: 1px solid rgba(89, 89, 89, 1);
+  border-radius: 3px;
+  color: rgba(238, 238, 238, 1);
+  font-size: 28px;
+  text-decoration: none;
+  padding: 10px 25px;
+  opacity: 0;
+  animation: fadein ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-delay: 3s;
+}
+
+.headermynd__button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .headermynd {
+    margin-bottom: 4em;
+  }
+  .headermynd__h2 {
+    font-size: 12vw;
+  }
+}
+
+.header__b {
+  opacity: 0.75;
+  background: url(bg-subpage.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  word-wrap: break-word;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 5em;
+  padding-bottom: 5em;
+  h1 {
+    margin-left: 0.3em;
+  }
+}
+@media (max-width: 600px) {
+  .header__b h1 {
+    margin-left: 0.2em;
+    font-size: 10vw;
+  }
+}
+@media (max-width: 400px) {
+  .header__b h1 {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    font-size: 2em;
+  }
+}
