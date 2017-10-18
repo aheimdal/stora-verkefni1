@@ -128,7 +128,6 @@ main {
     cursor: pointer;
   }
 
-
 /*header cover*/
 .headermynd {
   display: flex;
@@ -156,7 +155,6 @@ main {
     animation-duration: 1.5s;
     animation-delay: 1s;
   }
-
   .headermynd__h2 {
    font-size: 4.5em;
    margin-bottom: 1em;
@@ -166,7 +164,6 @@ main {
    animation-duration: 1.5s;
    animation-delay: 2s;
 }
-
 a.headermynd__button {
     background-color: rgba(89, 89, 89, 1);
     border: 1px solid rgba(89, 89, 89, 1);
@@ -191,6 +188,7 @@ a.headermynd__button {
      .headermynd__h2 {
        font-size: 12vw;
      }}
+
 /*textasvæði með mynd*/
 .text {
 }
@@ -258,7 +256,7 @@ a.headermynd__button {
   min-width: 100px;
   max-width: 400px;
   overflow: hidden;
-  padding-bottom: 5em;
+  margin-bottom: 5em;
   margin-top: 7.5em;
   flex: 1 0 auto;
   padding: 10px;
@@ -319,10 +317,10 @@ a.headermynd__button {
       margin-top: 1.5em;
   }
     .card__heading3 {
-    margin-top: 1.5em;
+      margin-top: 1.5em;
   }
     .card__nafn2 {
-    margin-top: 2.2em;
+      margin-top: 2.2em;
   }
     .card__nafn3 {
       margin-top: 0em;
@@ -341,14 +339,12 @@ a.headermynd__button {
   margin-bottom: 6.25em;
   text-align: center;
 }
-
 .bida__text {
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 1.25em;
   font-family: 'Roboto Slab', serif;
 }
-
   .bida__button {
    background-color: rgba(89, 89, 89, 1);
    color: rgba(255, 255, 255, 1);
@@ -359,7 +355,6 @@ a.headermynd__button {
    text-align: center;
    text-decoration: none;
   }
-
   .bida__button:hover {
     cursor: pointer;
   }
@@ -374,6 +369,7 @@ h1, legend {
   background: url(bg-subpage.jpg) no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  word-wrap: break-word;
   font-size: 2em;
   color: rgba(255, 255, 255, 1);
   padding-top: 5em;
@@ -384,46 +380,39 @@ h1, legend {
 }
 @media (max-width: 600px) {
   .header__b h1  {
-    margin-left: 0.1;
-    font-size: 10vw;
+    margin-left: 0.1em;
   } }
 
 fieldset {
   border: none;
   padding: 1em;
 }
-
 legend {
   font-weight: bold;
   font-size: 1.5em;
   color: rgba(77, 77, 77, 1);
 }
-
-  .input {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-top: 5em;
-    padding-bottom: 1em;
+.input {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 5em;
+  padding-bottom: 1em;
   }
-
 .personu {
   width: 100%;
   max-width: 35%;
   min-width: 15em;
 }
-
 .greidslu {
   width: 100%;
   max-width: 35%;
   min-width: 15em;
 }
-
 @media screen and (max-width: 600px) {
      .personu {min-width: 17em; max-width: 50%;}
     .greidslu {min-width: 17em; max-width: 50%;}
 }
-
 @media screen and (max-width: 400px) {
      .personu {max-width: 30em;}
     .greidslu {max-width: 30em;}
@@ -431,9 +420,6 @@ legend {
     .input{padding-bottom: 2em;}
     .header__b {background-position: left;}
 }
-
-
-
 select {
   background-color: rgba(250, 250, 250, 1);
 }
@@ -454,7 +440,6 @@ input, label {
   width: 1em;
   margin-top: 1em;
 }
-
 input, select {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -480,7 +465,6 @@ input, select {
 .manud select {
   margin-left: 2em;
 }
-
 select {padding: 0;}
 
 .panta input {
@@ -497,8 +481,9 @@ select {padding: 0;}
 .panta :hover {
     cursor: pointer;
   }
-
   /*Endi form síðu*/
+
+/* footer */
 .footer {
   display: flex;
   position: relative;
@@ -513,9 +498,7 @@ select {padding: 0;}
   .footer {
    padding-left: 0em;
    padding-right: 0em;
-    }
-
-  }
+    } }
   .footer__uppl {
     margin: auto;
     white-space: pre-line;
@@ -523,7 +506,6 @@ select {padding: 0;}
     text-align: center;
     font-weight: 400;
   }
-
 .footer2 {
   display: flex;
   position: relative;
@@ -533,7 +515,6 @@ select {padding: 0;}
   color: rgba(255, 255, 255, 1);
   border-top: solid rgba(140, 140, 140, 1);
 }
-
 .footer2__bottom {
   margin: auto;
   white-space: pre-line;
@@ -546,6 +527,7 @@ select {padding: 0;}
   margin-left: 16.66667%;
 }
 
+/* Um síðan */
 .texti {
   margin-bottom: 1.25em;
 }
@@ -561,131 +543,75 @@ select {padding: 0;}
   margin-bottom: 1.25em;
   font-size: 1em;
 }
-.texti__efst {
-  display: flex;
-  margin-bottom: 1.25em;
-  /*font-family: 'Open Sans' serif;*/
-  font-weight: 400;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
-  font-size: 1em;
+  article {
+    width: 100%;
   }
-
-.midja {
-}
-.midja__row {
-display: flex;
-flex-wrap: wrap;
-margin-right: -10px;
-margin-bottom: 1.25em;
-margin-left: -10px;
-}
-.midja__texti {
-  font-family: 'Open Sans' serif;
-  font-weight: 400;
-  margin-left: 1.25em;
-  margin-right: 3.75em;
-  font-size: 1em;
-  text-align: left;
-}
-/*.midja2__texti {
-  margin-bottom: 1.25;
-  font-family: 'Open Sans' serif;
-  font-weight: 400;
-  margin-left: 1.25em;
-  margin-right: 3.5em;
-  font-size: 1em;
-  text-align: left;
-}*/
-.quote {
-  position: relative;
-/*  float: left;*/
-  top: 20%;
-  margin-left: 1.25em;
-  margin-right: 2.5em;
-}
-.quote__eitt {
-  font-style: italic;
-  font-size: 1.5em;
-  margin: auto;
-  flex-wrap: wrap;
-  margin-bottom: 1.25em;
-}
-
-.qoute__tvo {
-  margin-bottom: 5em;
-  margin-top: 1.25em;
-  font-style: normal;
-  font-size: 1.125em;
-  }
-.textinedst {
-  margin-left: 1.25em;
-  margin-right: 1.25em;
-  font-size: 1em;
-  margin-bottom: 5em;
-}
-@media (max-width: 600px) {
-  .quote {
-    float: none;
-  }
-  .col-sm-6-right {
-    height: 400px;
-  }
-  .midja__texti {
+  article p:nth-child(1) {
+    margin-bottom: 1.125em;
+    margin-left: 1.25em;
     margin-right: 1.25em;
   }
-}
-@media (max-width: 400px) {
-  .row {
-   flex-direction: column-reverse;
-  }
-  .quote {
-    order: 1;
+  article p:nth-child(2) {
+    float: right;
+    width: 50%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3125em;
+    padding-left: 3.75em;
+    padding-right: 2.5em;
     margin-bottom: 1.25em;
-    }
-  .quote__eitt {
+    margin-top: 2em;
+  }
+  article p:nth-child(3) {
+    float: right;
+    width: 50%;
+    margin-left: 3em;
+    padding-left: 4.5em;
+  }
+  article p:nth-child(4) {
+    width: 50%;
     margin-left: 1.25em;
-    margin-right: 1.25em;
+    padding-right: 7.5em;
+  }
+  article p:nth-child(5) {
+     margin-top: 1.125em;
+     margin-left: 1.25em;
+     margin-right: 1.25em;
+     margin-bottom: 5em;
+     }
+  @media (max-width: 600px) {
+    article p:nth-child(2) {
+      float: right;
+      padding-left: 2.5em;
+      padding-right: 2.5em;
     }
-  .quote__tvo {
-    margin-left: 1.25em;
-    margin-bottom: 2.5em;
-      }
-  .texti__efst {
-    margin-bottom: 2.5em;
-    margin-right: 1.25em;
-  }
-  .textinedst {
-    margin-bottom: 2.5em;
-    margin-right: 1.25em;
-      }
-  .midja__texti {
-    margin-right: 1.25em;
-    order: 2;
-  }
-/*  .midja2__texti {
-    order: 3;
-  }*/
-
-  }
-
-  /*.um__h2 {
-    margin-left: 0;
-    margin-right: 0;
-      }
-  .um__texti {
-    margin-left: 0;
-    margin-right: 0;
-      }
-  .um__texti2 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 2.5em;
-        }
-  .um__textimidja {
-    margin-left: 0;
-    margin-right: 0;
-     float: left;
-
+    article p:nth-child(3) {
+      float: right;
+      margin-bottom: 1.25em;
+      padding-left: 3em;
     }
-  }*/
+    article p:nth-child(4) {
+      width: 100%;
+      padding-right: 3.75em;
+    }
+  }
+  @media (max-width: 400px) {
+    article p:nth-child(2) {
+      width: 100%;
+      padding-left: 2.5em;
+      padding-right: 4.5em;
+      margin-top: 1.25em;
+    }
+    article p:nth-child(3) {
+      width: 100%;
+      margin-bottom: 2.5em;
+    }
+    article p:nth-child(4) {
+      margin-right: 1.25em;
+      padding-right: 0em;
+      width: auto;
+    }
+    article p:nth-child(5) {
+      margin-bottom: 2.5em;
+    }
+  }
