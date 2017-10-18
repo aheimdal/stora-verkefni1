@@ -1,50 +1,57 @@
 .headbar {
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 9999;
-  background-color: rgba(77, 77, 77, 1);
+  background-color: rgba(77, 77, 77, 0.9);
   color: rgba(255, 255, 255, 1);
   width: 100%;
+  max-width: 1200px;
   height: 3em;
-
-  &__text {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-left: 0.5em;
-    padding-top: 0.2em;
-    font-family: 'Roboto Slab', serif;
-    float: left;
-    display: inline-block;
-  }
-  &__buttons {
-    position: absolute;
-    right: 0px;
-    margin-right: 1em;
-    padding-top: 0.5em;
-    text-align: center;
-  }
-  &__buttonum {
-    background-color: rgba(77, 77, 77, 1);
-    color: rgba(255, 255, 255, 1);
-    border: rgba(0, 0, 0, 1);
-    border-radius: 4px;
-    text-decoration: none;
-    width: 4.5em;
-    height: 2.5em;
-  }
-  &__buttonum:hover {
+}
+.headbar__text {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 0.5em;
+  padding-top: 0.2em;
+  font-family: 'Roboto Slab', serif;
+  float: left;
+  display: inline-block;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.headbar__buttons {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  right: 0px;
+  margin-right: 0.5em;
+  padding-top: 0.5em;
+}
+.headbar__buttonum {
+  background-color: rgba(77, 77, 77, 0);
+  color: rgba(255, 255, 255, 1);
+  border: rgba(0, 0, 0, 1);
+  right: 35px;
+  position: absolute;
+  border-radius: 4px;
+  padding-top: 5px;
+  text-decoration: none;
+  width: 4.5em;
+  height: 2.5em;
+  &:hover {
     cursor: pointer;
   }
-  &__buttonkaupa {
-    background-color: rgba(140, 140, 140, 1);
-    color: rgba(255, 255, 255, 1);
-    border: rgba(128, 128, 128, 1);
-    border-radius: 4px;
-    text-decoration: none;
-    width: 4.5em;
-    height: 2.5em;
-  }
-  &__buttonkaupa:hover {
+}
+.headbar__buttonkaupa {
+  background-color: rgba(140, 140, 140, 1);
+  color: rgba(255, 255, 255, 1);
+  border: rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  right: 5px;
+  position: absolute;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
     cursor: pointer;
   }
 }

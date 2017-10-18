@@ -5,44 +5,39 @@
   height: 140px;
   background-color: rgba(77, 77, 77, 1);
   color: rgba(255, 255, 255, 1);
-  padding-left: 19em;
-  padding-right: 17em;
+  padding-left: 18.75em;
+  padding-right: 17.5em;
+}
 
 @media (max-width: 600px) {
   .footer {
-   padding-left: 0em;
-   padding-right: 0em;
-} }
-  &__uppl {
-    margin: auto;
-    white-space: pre-line;
-    align-items: center;
-    text-align: center;
-    font-weight: 400;
-  }
-  &__uppl {
-    margin: auto;
-    white-space: pre-line;
-    align-items: center;
-    text-align: center;
-    font-weight: 400;
+    padding-left: 0em;
+    padding-right: 0em;
   }
 }
-/*seinni hluti footer*/
+
+.footer__uppl {
+  margin: auto;
+  white-space: pre-line;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+}
+
 .footer2 {
   display: flex;
   position: relative;
   width: 100%;
   height: 60px;
-  background-color: #4d4d4d;
-  color: #ffffff;
-  border-top: solid #8c8c8c;
+  background-color: rgba(77, 77, 77, 1);
+  color: rgba(255, 255, 255, 1);
+  border-top: solid rgba(140, 140, 140, 1);
+}
 
-  &__bottom {
-   margin: auto;
-   white-space: pre-line;
-   align-items: center;
-   text-align: center;
-   color: #8c8c8c;
-   }
- }
+.footer2__bottom {
+  margin: auto;
+  white-space: pre-line;
+  align-items: center;
+  text-align: center;
+  color: rgba(140, 140, 140, 1);
+}
