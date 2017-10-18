@@ -1,0 +1,156 @@
+/*Form síðan*/
+
+h1, legend {
+  font-family: 'Roboto Slab', serif;
+}
+
+.header__b {
+  opacity: 0.75;
+  background: url(bg-subpage.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  word-wrap: break-word;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 5em;
+  padding-bottom: 5em;
+  h1 {
+    margin-left: 0.3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__b h1 {
+    margin-left: 0.1em;
+  }
+}
+
+fieldset {
+  border: none;
+  padding: 1em;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgba(77, 77, 77, 1);
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+
+.personu, .greidslu {
+  width: 100%;
+  max-width: 35%;
+  min-width: 15em;
+}
+
+@media screen and (max-width: 600px) {
+  .personu, .greidslu {
+    min-width: 17em;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .personu, .greidslu {
+    max-width: 30em;
+  }
+  .checkbox input {
+    margin-bottom: 1em;
+  }
+  .input {
+    padding-bottom: 2em;
+  }
+  .header__b {
+    background-position: left;
+  }
+}
+
+select {
+  background-color: rgba(250, 250, 250, 1);
+}
+
+input, label {
+  display: inline-block;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.radio {
+  padding-top: 1em;
+  input {
+    width: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
+  label {
+    padding: 0em;
+  }
+}
+
+.checkbox input {
+  width: 1em;
+  margin-top: 1em;
+}
+
+input, select {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  width: 100%;
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(170, 170, 170, 1);
+}
+
+#kortanumer {
+  margin-bottom: 1em;
+}
+
+.manud {
+  display: inline-flex;
+  width: 100%;
+  * {
+    display: inline-flex;
+  }
+  label {
+    &:nth-child(2) {
+      padding-left: 1em;
+    }
+    padding: 0em;
+  }
+  select {
+    margin-left: 2em;
+  }
+}
+
+select {
+  padding: 0;
+}
+
+.panta {
+  input {
+    display: block;
+    background-color: rgba(77, 77, 77, 1);
+    margin: auto;
+    margin-bottom: 7em;
+    width: 20em;
+    border: none;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: rgba(255, 255, 255, 1);
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
+
+/*Endi form síðu*/
