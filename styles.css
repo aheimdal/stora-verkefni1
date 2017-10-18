@@ -434,6 +434,8 @@ legend {
      .personu {max-width: 30em;}
     .greidslu {max-width: 30em;}
     .checkbox input {margin-bottom: 1em;}
+    .input{padding-bottom: 2em;}
+    .header__b {background-position: left;}
 }
 
 
@@ -443,16 +445,17 @@ select {
 }
 input, label {
   display: inline-block;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 1em;
   width: 100%;
 }
+.radio {padding-top: 1em;}
 .radio input {
   width: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
+  margin-right: 1em;
 }
-
+.radio label {padding: 0em;}
 .checkbox input {
   width: 1em;
   margin-top: 1em;
@@ -468,6 +471,7 @@ input, select {
   border-width: 1px;
   border-color: rgba(170, 170, 170, 1);
 }
+#kortanumer{margin-bottom: 1em;}
 .manud {
   display: inline-flex;
   width: 100%;
@@ -475,10 +479,10 @@ input, select {
 .manud * {
  display: inline-flex;
 }
-.manud :nth-child(2) {
+.manud label:nth-child(2) {
   padding-left: 1em;
 }
-
+.manud label{padding: 0em;}
 .manud select {
   margin-left: 2em;
 }

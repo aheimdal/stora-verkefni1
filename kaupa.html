@@ -52,28 +52,27 @@
               <label>
                   <input type="checkbox" checked>
                   Skrá mig á póstlista
-                </label>
+              </label>
             </div>
           </fieldset>
         </section>
         <section class="greidslu">
           <fieldset>
             <legend>Greiðsluupplýsingar</legend>
-            <label>Greiða með:
+            <label>Greiða með:</label>
               <select>
                 <option value="Kreditkort">Kreditkorti</option>
                 <option value="Millifærslu">Millifærslu</option>
                 <option value="Reiðufé">Reiðufé</option>
               </select>
-            </label>
             <label>Nafn á korti:
               <input type="text" name="kortanafn">
             </label>
-            <label>Kortanúmer:
+            <label for="kortanumer">Kortanúmer:</label>
               <input
-                type="text"
+                type="text" id="kortanumer"
                 placeholder="5999-9999-9999-9999">
-            </label> Gildistími: <br>
+             Gildistími: <br>
             <div class="manud">
               <label>Mán
               <select>
@@ -90,7 +89,7 @@
                 <option value="11">11</option>
                 <option value="12">12</option>
               </select>
-            </label>
+              </label>
               <label>Ár
               <select>
                 <option value="17">2017</option>
